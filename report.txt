@@ -1,0 +1,9 @@
+Report Generated At: 2026-03-28 08:44:31.862098
+
+INFO    : 3
+WARNING : 2
+ERROR   : 2
+
+Error Details:
+ERROR Database connection failed
+ERROR Timeout occurred
