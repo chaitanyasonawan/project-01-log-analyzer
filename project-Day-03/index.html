@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Project</title>
+</head>
+<body>
+    <h1>Frontend Running 🚀</h1>
+    <button onclick="getData()">Get Message</button>
+
+    <p id="output"></p>
+
+    <script>
+        function getData() {
+            fetch('http://localhost:5000')
+                .then(res => res.text())
+                .then(data => {
+                    document.getElementById("output").innerText = data;
+                });
+        }
+    </script>
+</body>
